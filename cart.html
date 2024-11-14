@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- nav -->
+    <section class="container max-w-screen-xl mx-auto flex justify-between items-center h-[73px]">
+        <img src="./assets/img/logo.png" alt="">
+        <ul class="flex items-center gap-8 py-4">
+            <li class="hover:text-amber-500 font-medium text-xl"><a href="#">Home</a></li>
+            <li class="hover:text-amber-500 font-medium text-xl"><a href="#">Shop</a></li>
+            <li class="hover:text-amber-500 font-medium text-xl"><a href="#">About</a></li>
+            <li class="hover:text-amber-500 font-medium text-xl"><a href="#">Contact</a></li>
+        </ul>
+        <!-- icon -->
+        <div class="flex gap-4 py-4">
+            <span class="material-symbols-outlined">
+                person
+            </span>
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <span class="material-symbols-outlined">
+                favorite
+            </span>
+            <span class="material-symbols-outlined">
+                shopping_cart
+            </span>
+        </div>
+    </section>
+
+    <main class="container mx-auto max-w-screen-xl px-4 py-8">
+        <h1 class="text-3xl font-bold text-gray-800 mb-4">Thanh toán</h1>
+
+
+        <section class="grid grid-cols-12 gap-8">
+            <!-- cart left  -->
+            <div class="col-span-8 border-collapse border-gray-200">
+                <table class="w-full">
+                    <thead>
+                        <tr class="bg-[#F5F5F5]">
+                            <th class="text-gray-800 p-3 border-b border-gray-200">Product</th>
+                            <th class="text-gray-800 p-3 border-b border-gray-200">Price</th>
+                            <th class="text-gray-800 p-3 border-b border-gray-200">Quantity</th>
+                            <th class="text-gray-800 p-3 border-b border-gray-200">Subtotal</th>
+                            <th class="text-gray-800 p-3 border-b border-gray-200">#</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td class="p-3 border-b border-gray-200 flex items-center gap-3">
+                                <div>
+                                    <img src="./assets/img/cart_1.png" alt="">
+                                </div>
+                                <span class="text-[#A3A3A3] text-base font-medium leading-normal">Asgaard sofa</span>
+                            </td>
+                            <td
+                                class="p-3 border-b border-gray-200 text-[#A3A3A3] text-base font-medium leading-normal">
+                                25.000.000đ</td>
+                            <td class="p-3 border-b border-gray-200">1</td>
+                            <td
+                                class="p-3 border-b border-gray-200 text-[#262626] text-base font-medium leading-normal">
+                                25.000.000đ</td>
+                            <td class="p-3 border-b border-gray-200 text-[red]"><span class="material-symbols-outlined">
+                                    delete
+                                </span></td>
+                        </tr>
+                        <!-- Repeat the above tr for each product -->
+                    </tbody>
+                </table>
+            </div>
+            <!-- cart-right -->
+            <div class="col-span-4 p-8 bg-[#F5F5F5]">
+                <h1 class="mb-5 text-[#262626] text-xl font-semibold leading-normal">Cart Total</h1>
+                <hr class="bg-[#A3A3A3]">
+                <div class="flex justify-between mb-5">
+                    <span class="text-[#262626] text-base font-medium leading-normal">Subtotal</span>
+                    <span class="text-[#A3A3A3] text-base font-medium leading-normal">25.000.000đ</span>
+                </div>
+                <div class="flex justify-between mb-5">
+                    <span class="text-[#262626] text-base font-medium leading-normal">Total</span>
+                    <span class="text-[#EF4444] text-[20px] font-bold leading-normal">25.000.000đ</span>
+                </div>
+                <div class="w-full">
+                    <button
+                        class="w-full border-2 border-[#CA8A04] px-4 py-2 text-[#CA8A04] font-family['Poppins'] text-base font-semibold  leading-[150%] hover:bg-[#CA8A04] hover:text-white">Checkout</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class=" bg-black text-white mt-[64px]">
+        <div class="container max-w-screen-xl mx-auto pt-[64px]">
+            <div class="grid grid-cols-4 gap-8 ">
+                <div>
+                    <img src="./assets/img/footer_logo.png" alt="" class="mb-4">
+                    <p>400 University Drive Suite 200 Coral Gables,
+                        FL 33134 USA</p>
+                </div>
+                <div>
+                    <div class="font-semibold text-[28px] mb-4">Sitemap</div>
+                    <ul>
+                        <li class="mb-4"><a href="#">Home</a></li>
+                        <li class="mb-4"><a href="#">Shop</a></li>
+                        <li class="mb-4"><a href="#">About</a></li>
+                        <li class="mb-4"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="font-semibold text-[28px] mb-4">Help</div>
+                    <ul>
+                        <li class="mb-4"><a href="#">Payment Options</a></li>
+                        <li class="mb-4"><a href="#">Returns</a></li>
+                        <li class="mb-4"><a href="#">Privacy Policies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="font-semibold text-[28px] mb-4">Location</div>
+                    <ul>
+                        <li class="mb-4"><a href="#">support@euphoria.in</a></li>
+                        <li class="mb-4"><a href="#">Ahmedabad Main Road</a></li>
+                        <li class="mb-4"><a href="#">Udaipur, India- 313002</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-[64px]">
+            <p class="text-center py-8 ">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

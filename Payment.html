@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- nav -->
+    <section class="container max-w-screen-xl mx-auto flex justify-between items-center h-[73px]">
+        <img src="./assets/img/logo.png" alt="">
+        <ul class="flex items-center gap-8 py-4">
+            <li class="hover:text-amber-500 font-medium text-xl"><a href="#">Home</a></li>
+            <li class="hover:text-amber-500 font-medium text-xl"><a href="#">Shop</a></li>
+            <li class="hover:text-amber-500 font-medium text-xl"><a href="#">About</a></li>
+            <li class="hover:text-amber-500 font-medium text-xl"><a href="#">Contact</a></li>
+        </ul>
+        <!-- icon -->
+        <div class="flex gap-4 py-4">
+            <span class="material-symbols-outlined">
+                person
+            </span>
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <span class="material-symbols-outlined">
+                favorite
+            </span>
+            <span class="material-symbols-outlined">
+                shopping_cart
+            </span>
+        </div>
+    </section>
+
+    <main class="container max-w-screen-xl mx-auto px-4 py-8">
+        <h1 class="text-[40px] font-bold text-gray-800 mb-4">Billing details</h1>
+
+        <form class="grid grid-cols-12 gap-8 mt-8">
+            <div class="col-span-6 flex flex-col gap-8">
+                <div class="flex justify-between gap-8">
+                    <div class="flex flex-col w-full">
+                        <label for="firstName" class="text-[#262626] text-base font-medium leading-normal">First
+                            Name</label>
+                        <input type="text" id="firstName" class="mt-2 h-[40px] border border-[#A3A3A3] bg-white">
+                    </div>
+                    <div class="flex flex-col w-full">
+                        <label for="firstName" class="text-[#262626] text-base font-medium leading-normal">First
+                            Name</label>
+                        <input type="text" id="firstName" class="mt-2 h-[40px] border border-[#A3A3A3] bg-white">
+                    </div>
+                </div>
+
+                <div class="flex flex-col w-full">
+                    <label for="firstName" class="text-[#262626] text-base font-medium leading-normal">Company Name
+                        (Optional)</label>
+                    <input type="text" id="firstName" class="mt-2 h-[40px] border border-[#A3A3A3] bg-white">
+                </div>
+
+                <div class="flex flex-col w-full">
+                    <label for="firstName" class="text-[#262626] text-base font-medium leading-normal">Company Name
+                        (Optional)</label>
+                    <select name="" class="mt-2 p-2 h-[40px] text-[#A3A3A3] border border-[#A3A3A3] bg-white">
+                        <option value="">Sri Lanka</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </div>
+
+                <div class="flex flex-col w-full">
+                    <label for="firstName" class="text-[#262626] text-base font-medium leading-normal">Street
+                        address</label>
+                    <input type="text" id="firstName" class="mt-2 h-[40px] border border-[#A3A3A3] bg-white">
+                </div>
+                <div class="flex flex-col w-full">
+                    <label for="firstName" class="text-[#262626] text-base font-medium leading-normal">Town /
+                        City</label>
+                    <input type="text" id="firstName" class="mt-2 h-[40px] border border-[#A3A3A3] bg-white">
+                </div>
+
+                <div class="flex flex-col w-full">
+                    <label for="firstName" class="text-[#262626] text-base font-medium leading-normal">Province</label>
+                    <select name="" class="mt-2 p-2 h-[40px] text-[#A3A3A3] border border-[#A3A3A3] bg-white">
+                        <option value="">Western Province</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </div>
+
+                <div class="flex flex-col w-full">
+                    <label for="firstName" class="text-[#262626] text-base font-medium leading-normal">ZIP code</label>
+                    <input type="text" id="firstName" class="mt-2 h-[40px] border border-[#A3A3A3] bg-white">
+                </div>
+                <div class="flex flex-col w-full">
+                    <label for="firstName" class="text-[#262626] text-base font-medium leading-normal">Phone</label>
+                    <input type="text" id="firstName" class="mt-2 h-[40px] border border-[#A3A3A3] bg-white">
+                </div>
+                <div class="flex flex-col w-full">
+                    <label for="firstName" class="text-[#262626] text-base font-medium leading-normal">Email
+                        address</label>
+                    <input type="text" id="firstName" class="mt-2 h-[40px] border border-[#A3A3A3] bg-white">
+                </div>
+            </div>
+            <div class="col-span-6 ">
+                <div>
+                    <div class="flex justify-between">
+                        <p class="text-[#262626] text-[24px] font-semibold leading-normal">Product</p>
+                        <p class="text-[#262626] text-[24px] font-semibold leading-normal">Subtotal</p>
+                    </div>
+                    <div class="flex justify-between mt-4">
+                        <div class="flex gap-3">
+                            <p class="text-[#A3A3A3] text-base font-normal leading-normal">Asgaard sofa</p>
+                            <span class="text-[#262626] text-base font-normal leading-normal">X1</span>
+                        </div>
+                        <span class="text-[#262626] text-xl font-medium leading-normal">25.000.000đ</span>
+                    </div>
+                    <div class="flex justify-between mt-4">
+                        <span class="text-[#262626] text-base font-normal leading-normal">Subtotal</span>
+                        <span class="text-[#262626] text-xl font-medium leading-normal">25.000.000đ</span>
+                    </div>
+                    <div class="flex justify-between mt-4">
+                        <span class="text-[#262626] text-base font-normal leading-normal">Subtotal</span>
+                        <span class="text-[#B88E2F] text-xl font-bold leading-normal">250.00.000đ</span>
+                    </div>
+                </div>
+                <hr class="my-8">
+                <div>
+                    <div>
+                        <div class="text-[#262626] text-base font-medium">
+                            <input type="radio" name="" checked> Direct Bank
+                            Transfer
+                        </div>
+                        <p class="text-[#A3A3A3] text-base font-normal leading-7 text-justify">Make your payment
+                            directly into our bank account. Please use your Order ID as the payment reference. Your
+                            order will not be shipped until the funds have cleared in our account.</p>
+                        <!--  -->
+                        <div class="!text-[#A3A3A3] text-base font-medium">
+                            <input type="radio" name="radio" class="mt-4"> ATM
+                            Bank
+                            Transfer
+                            <br>
+                            <input type="radio" name="radio" class="mt-4"> Cash On
+                            Delivery
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <p class="text-[#262626] text-base font-normal leading-7 text-justify">Your personal data will
+                            be used to support your experience throughout this website, to manage access to your
+                            account, and for other purposes described in our <span class="font-semibold">privacy
+                                policy.</span></p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button
+                        class="text-center w-[342px] mt-[40px] border-2 border-[#CA8A04] px-4 py-2 text-[#CA8A04] font-family['Poppins'] text-base font-semibold  leading-[150%] hover:bg-[#CA8A04] hover:text-white">Place
+                        order</button>
+                </div>
+            </div>
+        </form>
+    </main>
+  <!-- footer -->
+  <footer class=" bg-black text-white mt-[64px]">
+    <div class="container max-w-screen-xl mx-auto pt-[64px]">
+        <div class="grid grid-cols-4 gap-8 ">
+            <div>
+                <img src="./assets/img/footer_logo.png" alt="" class="mb-4">
+                <p>400 University Drive Suite 200 Coral Gables,
+                    FL 33134 USA</p>
+            </div>
+            <div>
+                <div class="font-semibold text-[28px] mb-4">Sitemap</div>
+                <ul>
+                    <li class="mb-4"><a href="#">Home</a></li>
+                    <li class="mb-4"><a href="#">Shop</a></li>
+                    <li class="mb-4"><a href="#">About</a></li>
+                    <li class="mb-4"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="font-semibold text-[28px] mb-4">Help</div>
+                <ul>
+                    <li class="mb-4"><a href="#">Payment Options</a></li>
+                    <li class="mb-4"><a href="#">Returns</a></li>
+                    <li class="mb-4"><a href="#">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="font-semibold text-[28px] mb-4">Location</div>
+                <ul>
+                    <li class="mb-4"><a href="#">support@euphoria.in</a></li>
+                    <li class="mb-4"><a href="#">Ahmedabad Main Road</a></li>
+                    <li class="mb-4"><a href="#">Udaipur, India- 313002</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="mt-[64px]">
+        <p class="text-center py-8 ">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+
+</html>
